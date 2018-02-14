@@ -4,6 +4,7 @@
   "repository": "https://github.com/blakelapierre/base-preact-cycle",
   "version": "0.0.1",
   "dependencies": {
+    "annyang": "^2.6.0",
     "preact-cycle": "^0.5.1"
   },
   "devDependencies": {

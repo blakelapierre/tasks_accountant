@@ -1,0 +1,12 @@
+#!/bin/sh
+
+gulp build &&
+
+echo "alpha.voice.tasks.accountant" >> .rev/CNAME && \
+
+cd .rev && \
+git init && \
+git checkout -b gh-pages \
+&& git add . \
+&& git commit -m "build" \
+&& git remote add origin git@github.com:blakelapierre/tasks_accountant
